@@ -22,3 +22,4 @@ function getRandomHexColor() {
     clearInterval(timerId);
     return stopBtn.disabled = true;
   })
+ 
