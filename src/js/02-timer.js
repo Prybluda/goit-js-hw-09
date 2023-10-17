@@ -8,7 +8,7 @@ const spanHours = document.querySelector('span[data-hours]');
 const spanMinutes = document.querySelector('span[data-minutes]');
 const spanSeconds = document.querySelector('span[data-seconds]')
   const input = document.querySelector('#datetime-picker');
-  const timerDiv = document.querySelector('.value');
+  
 
   startBtn.disabled = true;
   let timerId = null;
@@ -66,4 +66,4 @@ const spanSeconds = document.querySelector('span[data-seconds]')
         };
     }, 1000)
   })
-// Cтільки страждань за ради двох кліків....
+// Cтільки страждань за ради двох кліків....)
